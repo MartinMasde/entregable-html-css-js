@@ -1,0 +1,141 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.6rem;
+}
+
+.contenedor {
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .dos-columnas {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10rem;
+    }
+}
+
+/* ----  HEADER  ---- */
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.navLeft {
+    justify-content: space-between;
+}
+
+.navRight {
+    justify-content: flex-end;
+}
+
+.headerLogo {
+    width: auto;
+    height: 50px;
+}
+
+/* ----  CONTACT  ---- */
+h1 { font-size: 4rem;}
+h2 { font-size: 3.2rem;}
+h3 { font-size: 1.5rem;}
+
+p {
+    font-size: 1.7rem;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    margin: 10px;
+    padding: 0;
+    color: black;
+}
+
+.location {
+    display: inline-block;
+    padding: 0 105px 0 0;
+    margin-top: 30px;
+  
+}
+.address {
+    font-size: 1.4rem; 
+}
+.gpsImage {
+    width: auto;
+    height: 15px;
+    font-size: 1.4rem;
+}
+
+/* ----  FORM  ---- */
+.card {
+    padding: 25px;
+    background: #FFF;
+    max-width: 500px;
+    width: 100%;
+    border-radius: 7px;
+    margin-top: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form-group {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+form label {
+    display: block;
+    font-size: 1.6rem;
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    height: 30px;
+    padding: 10px;
+    width: 95%;
+    font-size: 1.6rem;
+    background: #fff;
+    border-radius: 5px;
+    border: solid 1px #c3bfbfbf;
+}
+
+form textarea {
+    height: 150px;
+}
+
+/* ----  BUTTON  ---- */
+button {
+    color: white;
+    border: none;
+    height: auto;
+    padding: 13px 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #406de9;
+    text-transform: uppercase;
+    transition: 0.2s ease;
+}
+
+.submit-button  {
+    width: 100%;
+    font-size: 16px;
+}
+
+.signUp-button{
+    width: 20%;
+    height: 80%;
+    font-size: 13px;
+}
+
